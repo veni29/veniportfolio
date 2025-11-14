@@ -258,7 +258,7 @@ footer {
   color: #fff;
   border: none;
   border-radius: 8px;
-  cursor: pointer;
+  cursor: default;
   font-size: 15px;
   transition: 0.3s ease;
 }
@@ -294,7 +294,7 @@ footer {
   top: 20px;
   right: 40px;
   font-size: 45px;
-  cursor: pointer;
+  cursor: default;
   color: white;
   font-weight: bold;
 }
@@ -396,7 +396,7 @@ footer {
 
 /* Cursor glow */
 body {
-  cursor: none;
+  cursor: default;
 }
 .cursor-dot {
   width: 8px;
