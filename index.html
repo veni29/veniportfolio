@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Veni Rajendran | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- ✨ Subtle Background Animation -->
+  <div class="bubbles"></div>
+  <div class="float-icons">
+  <span>⭐</span>
+  <span>💜</span>
+  <span>✨</span>
+</div>
+
+
+  <!-- 🔝 Navigation -->
+  <header>
+    <nav>
+      <h2 class="logo">Veni <span>Rajendran</span></h2>
+      <ul>
+        
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#internship">Internship</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 🏡 Home -->
+  <section id="home" class="section">
+    <div class="home-container">
+      <div class="text">
+        <h1>Hi, I'm <span>Veni Rajendran</span></h1>
+        <p>Beginner Web Developer | B.Sc. Computer Science Graduate | Front-end & Python Learner</p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+      <div class="profile-pic">
+        <img src="assets/profile.jpg" alt="Veni Rajendran" />
+      </div>
+    </div>
+  </section>
+
+  <!-- 👩‍💻 About -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I’m a Computer Science graduate passionate about front-end development and learning Python for backend projects.
+      I love creating clean, responsive, and user-friendly websites with modern designs.
+    </p>
+  </section>
+
+  <!-- 💡 Skills -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">HTML5</div>
+      <div class="skill">CSS3</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Python (Learning)</div>
+      <div class="skill">Git & GitHub</div>
+      <div class="skill">Responsive Design</div>
+    </div>
+  </section>
+
+  <!-- 🧱 Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <img src="assets/venis-kitchen.png" alt="Veni’s Kitchen" />
+        <h3>Veni’s Kitchen</h3>
+        <p>Recipe website using HTML, CSS, and JavaScript.</p>
+        <a href="https://veni29.github.io/veni-kitchen/" target="_blank" class="btn">View Project</a>
+      </div>
+
+      <div class="card">
+        <img src="assets/restaurant.png" alt="Restaurant Website" />
+        <h3>Restaurant Website</h3>
+        <p>Responsive restaurant layout built using HTML and CSS.</p>
+        <a href="https://veni29.github.io/restaurant-website/" target="_blank" class="btn">View Project</a>
+      </div>
+
+      <div class="card">
+        <img src="assets/pcbs.png" alt="PCBS Project" />
+        <h3>PCBS Project</h3>
+        <p>College group project – Photographer Client Booking System.</p>
+      </div>
+    </div> 
+    <div class="project-item">
+    <h2>📸 PCBS – Photographer Client Booking & Scheduling</h2>
+    <p>Your project short description here...</p>
+
+    <button class="view-btn" onclick="openImage('images/pcbs-dashboard.png')">
+        👁️ View Image
+    </button>
+    <button class="view-btn" onclick="openImage('images/pcbs-bookings.png')">
+        👁️ View Image 2
+    </button>
+    <button class="view-btn" onclick="openImage('images/pcbs-clients.png')">
+        👁️ View Image 3
+    </button>
+</div>
+
+<!-- Fullscreen Image Viewer -->
+<div id="image-viewer" class="image-viewer">
+    <span class="close-btn" onclick="closeImage()">×</span>
+    <img id="full-image" src="">
+</div>
+
+  </section>
+
+  <!-- 🎓 Internship Section -->
+<section id="internship" class="section">
+  <h2>Internship</h2>
+
+  <div class="card" style="max-width: 700px; margin: auto; background: rgba(255,255,255,0.05); padding: 25px; border-radius: 15px;">
+    <h3>Bluez Infomatic Solution</h3>
+    <p><strong>Role:</strong> Process Associate</p>
+    <p><strong>Duration:</strong> April 2025 (15-day training)</p>
+
+    <p style="margin-top:10px;">
+      Attended Process Executive training and gained knowledge in workflow systems, client communication, and
+      professional process handling.
+    </p>
+
+    <h4 style="margin-top:15px;">Skills Used:</h4>
+    <ul style="text-align:left; margin-top:10px;">
+      <li>BPO Process & Workflow</li>
+      <li>Client Communication (Voice & Non-Voice)</li>
+      <li>Data Entry & MS Excel Handling</li>
+      <li>Process Documentation</li>
+      <li>Time Management & Team Coordination</li>
+    </ul>
+  </div>
+</section>
+
+
+  <!-- 🏅 Certifications Section -->
+<section id="certifications" class="section">
+  <h2>Certifications</h2>
+
+  <div class="card" style="max-width: 700px; margin: auto; background: rgba(255,255,255,0.05); padding: 25px; border-radius: 15px;">
+    <ul style="text-align:left; margin-top:10px; line-height: 1.8;">
+      <li><strong>Microsoft Excel (Advanced):</strong> Pivot Tables, VLOOKUP, Charts, Conditional Formatting, Basic Macros</li>
+      <li><strong>Typewriting English (Lower & Higher Grades)</strong> — Government of Tamil Nadu</li>
+      <li><strong>National Level Hackathon Participant</strong> — Isysway Technologies, 2024</li>
+    </ul>
+  </div>
+</section>
+
+
+  <!-- 🧾 Resume -->
+  <section id="resume" class="section">
+    <h2>My Resume</h2>
+    <p>Click below to view my resume.</p>
+    <a href="assets/resume.jpg" target="_blank" class="btn">View Resume</a>
+  </section>
+
+  <!-- 📞 Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <div class="contact-links">
+      <a href="mailto:rajendranveni149@gmail.com" class="btn">📧 Email</a>
+      <a href="https://github.com/veni29" target="_blank" class="btn">💻 GitHub</a>
+      <a href="https://www.linkedin.com/in/veni07" target="_blank" class="btn">🔗 LinkedIn</a>
+      <a href="tel:+919843033575" class="btn">📞 Call</a>
+    </div>
+  </section>
+  <div id="topBtn">↑</div>
+
+
+  <footer>© 2025 Veni Rajendran | All Rights Reserved</footer>
+</body>
+</html>
+
+
+
